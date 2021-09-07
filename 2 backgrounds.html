@@ -1,0 +1,43 @@
+<html>
+<head><title>different backgrounds for images and single element</title>
+<style>
+body
+{
+	text-align:center;
+	background-image:url("3.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-origin:content-box;
+	background-size:cover;
+	background-attachment:local;
+	background-clip:border-box;
+	}
+	h1
+	{
+		color:red;
+	}
+	#img
+	{
+		background-image:url("2.jpg");
+		
+		background-position:center center;
+		background-repeat:no-repeat,no repeat;
+		background-origin:content-box,padding-box;
+		background-size:auto;
+		background-attachment:local;
+		background-clip:border-box;
+		//padding:35px;
+		//height:400px;
+	}
+</style>
+</head>
+<body>
+<div id="img">
+	<h1>Single element background</h1>
+	<p>different backgrounds</p>
+	
+</div>
+<p style="color:blue;font-size:40px;text-align:center;font-style:bold;border-color:cyan;border-width:5px;border-style:groove">Dannana jyothsna</p>
+</body>
+</html>	
+	
